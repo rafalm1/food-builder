@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,MAAM,CAAC;EACL,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,cAAc;EACtB,UAAU,EAAE,cAAc;EAC1B,OAAO,EAAE,IAAI;EACb,MAAM,EAAE,SAAS;EACjB,UAAU,EAAE,UAAU;CACvB;;AAED,AAAA,KAAK,CAAC;EACJ,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,OAAO;CAChB",
+    "sources": [
+        "Order.module.scss"
+    ],
+    "names": [],
+    "file": "Order.module.css"
+}

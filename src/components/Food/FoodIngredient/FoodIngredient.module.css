@@ -1,0 +1,224 @@
+.RollTop {
+  height: 28%;
+  width: 100%;
+  background: -webkit-gradient(linear, left bottom, left top, from(#999999), color-stop(15%, #252525));
+  background: linear-gradient(0deg, #999999 0%, #252525 15%);
+  border-radius: 80% 80% 20% 20%;
+  margin: auto;
+  position: relative;
+}
+
+.RollBottom {
+  height: 19%;
+  width: 100%;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(85%, #252525), to(#999999));
+  background: linear-gradient(0deg, #252525 85%, #999999 100%);
+  margin: auto;
+  border-radius: 15% 15% 50% 50%;
+}
+
+.Seeds1 {
+  position: absolute;
+  width: 3%;
+  height: 6%;
+  background-color: white;
+  left: 20%;
+  top: 50%;
+  border-radius: 40%;
+  -webkit-transform: rotate(-20deg);
+          transform: rotate(-20deg);
+}
+
+.Seeds1:after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: white;
+  left: -270%;
+  top: -600%;
+  border-radius: 40%;
+  -webkit-transform: rotate(60deg);
+          transform: rotate(60deg);
+}
+
+.Seeds1:before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: white;
+  left: 300%;
+  top: 500%;
+  border-radius: 40%;
+  -webkit-transform: rotate(60deg);
+          transform: rotate(60deg);
+}
+
+.Seeds2 {
+  position: absolute;
+  width: 3%;
+  height: 6%;
+  background-color: white;
+  left: 50%;
+  top: 50%;
+  border-radius: 40%;
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
+}
+
+.Seeds2:after {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  content: '';
+  left: 300%;
+  top: 150%;
+  border-radius: 40%;
+  -webkit-transform: rotate(-50deg);
+          transform: rotate(-50deg);
+}
+
+.Seeds2:before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  content: '';
+  left: -350%;
+  top: -200%;
+  border-radius: 40%;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.Seeds3 {
+  position: absolute;
+  width: 3%;
+  height: 6%;
+  background-color: white;
+  left: 76%;
+  top: 51%;
+  border-radius: 40%;
+  -webkit-transform: rotate(-20deg);
+          transform: rotate(-20deg);
+}
+
+.Seeds3:after {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  content: '';
+  left: 250%;
+  top: 400%;
+  border-radius: 40%;
+  -webkit-transform: rotate(-40deg);
+          transform: rotate(-40deg);
+}
+
+.Seeds3:before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  content: '';
+  left: -250%;
+  top: -400%;
+  border-radius: 40%;
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
+}
+
+.Salad {
+  width: 90%;
+  height: 4%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#228c1d), to(#91ce50));
+  background: linear-gradient(#228c1d, #91ce50);
+  margin: 3px auto;
+  border-radius: 20px;
+}
+
+.Ketchup {
+  width: 93%;
+  height: 4%;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(70%, #ce2522), color-stop(94%, #af100d));
+  background: linear-gradient(0deg, #ce2522 70%, #af100d 94%);
+  margin: 3px auto;
+  border-radius: 20px;
+}
+
+.Garlic {
+  width: 90%;
+  height: 4%;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(12%, #cdcbc6), color-stop(43%, #dfd2bb));
+  background: linear-gradient(0deg, #cdcbc6 12%, #dfd2bb 43%);
+  margin: 3px auto;
+  border-radius: 20px;
+}
+
+.Cheese {
+  width: 91%;
+  height: 4.5%;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(55%, #fbc000), color-stop(75%, #f1c433));
+  background: linear-gradient(0deg, #fbc000 55%, #f1c433 75%);
+  border-radius: 5px;
+  margin: 3px auto;
+}
+
+.Frankfurter {
+  position: relative;
+  width: 92%;
+  height: 15%;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(9%, #9f3013), color-stop(63%, #752e1b));
+  background: linear-gradient(0deg, #9f3013 9%, #752e1b 63%);
+  border-radius: 30px;
+  margin: 3px auto;
+}
+
+.Cut:nth-child(1) {
+  position: absolute;
+  width: 1%;
+  height: 90%;
+  background-color: white;
+  left: 20%;
+  border-radius: 40%;
+  -webkit-transform: rotate(-50deg);
+          transform: rotate(-50deg);
+  margin-right: 50px;
+}
+
+.Cut:nth-child(2) {
+  position: absolute;
+  width: 1%;
+  height: 90%;
+  background-color: white;
+  left: 50%;
+  border-radius: 40%;
+  -webkit-transform: rotate(-50deg);
+          transform: rotate(-50deg);
+  margin-right: 50px;
+}
+
+.Cut:nth-child(3) {
+  position: absolute;
+  width: 1%;
+  height: 90%;
+  background-color: white;
+  left: 80%;
+  border-radius: 40%;
+  -webkit-transform: rotate(-50deg);
+          transform: rotate(-50deg);
+  margin-right: 50px;
+}
+
+.Sausage {
+  width: 92%;
+  height: 11%;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(3%, #db502b), color-stop(43%, #cc3108));
+  background: linear-gradient(0deg, #db502b 3%, #cc3108 43%);
+  border-radius: 30px;
+  margin: 3px auto;
+}
+/*# sourceMappingURL=FoodIngredient.module.css.map */
