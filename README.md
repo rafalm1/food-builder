@@ -1,7 +1,7 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 React Food Builder with User Authentication.
 This website is clone app with custom design from React - The Complete Guide (incl Hooks, React Router, Redux) by Maximilian Schwarzmüller
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Features:
 - User Authentication
