@@ -3,6 +3,8 @@ This website is clone app with custom design from React - The Complete Guide (in
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+View LIVE: https://food-builder-17e1e.web.app/
+
 Features:
 - User Authentication
 - Add/Remove ingredients to Burger
